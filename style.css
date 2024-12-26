@@ -1,0 +1,11 @@
+.numberContainer{
+    width: 320px;
+    height: 450px;
+}
+.numberButton{
+    width: 100px;
+    height: 100px;
+}
+.symbolsContainer{
+    width: 100px;
+}
