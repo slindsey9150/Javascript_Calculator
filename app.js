@@ -1,8 +1,19 @@
 console.log("Hello World");
 
-function clickButton () {
-    let buttonId = document.querySelector(".numberButton").id
-    console.log("You're clicking a button", buttonId);
+function buttonClick(value) {
+console.log(value);
 
-    
 }
+
+function init() {
+    console.log("hi");
+    
+    document
+        .querySelector('.calc-buttons')
+        .addEventListener("click", function(event) {
+            buttonClick(event.target.innerText);
+        });
+
+}
+
+init()
